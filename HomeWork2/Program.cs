@@ -21,7 +21,8 @@ System.Console.WriteLine("Задача 10");
 System.Console.Write("Введите трёхзначное число:");
 int a = Convert.ToInt32(Console.ReadLine());
 int result;
-if (Math.Abs(a)>=100 && Math.Abs(a)<=1000){result = (Math.Abs(a)/10)%10;
+if (Math.Abs(a)>=100 && Math.Abs(a)<=1000){
+result = (Math.Abs(a)/10)%10;
 System.Console.WriteLine("Вторая цифра:" + result);}
 else {System.Console.WriteLine("Число не трёхзначное!");}
 
@@ -38,7 +39,7 @@ a = Convert.ToInt32(Console.ReadLine());
 
 if (Math.Abs(a) >=100 && Math.Abs(a)<=1000){
 result = (Math.Abs(a)%10);
-System.Console.WriteLine("Наше число: " +result);}
+System.Console.WriteLine("Наше число: " + result);}
 else 
 if(Math.Abs(a)<100) System.Console.WriteLine("Нет третьего числа");
 else {
