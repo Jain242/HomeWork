@@ -61,6 +61,6 @@ System.Console.Write("Введите число:");
 a = Convert.ToInt32(Console.ReadLine());
 if(a>=1 && a<=7)
 
-System.Console.WriteLine((a<=5 || a>5) ? "Нет" : "Да");
+System.Console.WriteLine(a<=5 ? "Нет" : "Да");
  
 else  System.Console.WriteLine("Нет такого дня недели");
