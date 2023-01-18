@@ -20,11 +20,11 @@
 System.Console.WriteLine("Задача 10");
 System.Console.Write("Введите трёхзначное число:");
 int a = Convert.ToInt32(Console.ReadLine());
-if (Math.Abs(a)>=100 && Math.Abs(a)<=1000){}
-else {System.Console.WriteLine("Число не трёхзначное!");
-return;}
-int result = (Math.Abs(a)/10)%10;
-System.Console.WriteLine("Вторая цифра:" + result);
+int result;
+if (Math.Abs(a)>=100 && Math.Abs(a)<=1000){result = (Math.Abs(a)/10)%10;
+System.Console.WriteLine("Вторая цифра:" + result);}
+else {System.Console.WriteLine("Число не трёхзначное!");}
+
 
 //Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 //645 -> 5
