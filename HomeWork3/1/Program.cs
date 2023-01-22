@@ -24,6 +24,3 @@ Polindrom(number);
 else 
 {System.Console.WriteLine("Число не 5-ти значное!")};
 
-int em;
-em = 23;
-
