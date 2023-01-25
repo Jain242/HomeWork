@@ -22,5 +22,5 @@ int number = Convert.ToInt32(Console.ReadLine());
 if(number>=10000 && number<100000)
 Polindrom(number);
 else 
-{System.Console.WriteLine("Число не 5-ти значное!");};
+System.Console.WriteLine("Число не 5-ти значное!");
 
