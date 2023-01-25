@@ -3,7 +3,12 @@
 // 2, 4 -> 16
 
 int Stepen(int a, int b){
-return (int) Math.Pow(a,b);
+int result =1;
+for (int i = 1; i <= b; i++)
+{
+    result=result*a;
+}
+return result;
 }
 
 
