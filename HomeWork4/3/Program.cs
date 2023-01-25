@@ -15,6 +15,7 @@ for (int i = 0; i < n; i++)
  void PrintArray(int [] array){
  System.Console.Write("[");
 int n = array.Length;
+if (n == 0) System.Console.WriteLine("]");
  for (int i = 0; i < n; i++)
 {if(i == n-1)
    System.Console.WriteLine($"{array[i]}]");
@@ -33,5 +34,5 @@ return;}
 int[] arr = new int [a];
 System.Console.WriteLine("Введите элементы массива");
 EnterArray(arr,a);
-System.Console.WriteLine($"Вашмассив");
+System.Console.WriteLine($"Ваш массив");
 PrintArray(arr);
