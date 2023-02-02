@@ -6,7 +6,7 @@
 void printPoint(double b1,double k1,double b2,double k2){
 double x = (b2-b1)/(k1-k2);
 double y = (k1*x) + b1;
-if (x == -0 || y == -0) {
+if (k1 == k2) {
 System.Console.WriteLine($"Прямые не пересекаются");
 }
 else
