@@ -20,8 +20,8 @@ void EnterArray(double [] array, int n){
    Random rnd = new Random();
 for (int i = 0; i < n; i++)
 {
-     array[i] = rnd.Next(0,100);
-     //array[i] = rnd.NextDouble();
+     //array[i] = rnd.Next(0,100)/20;
+     array[i] = Math.Round(rnd.NextDouble()*100,2);
 }
 }
 
@@ -47,4 +47,5 @@ return;}
 double[] arr = new double [a];
 EnterArray(arr,a);
 PrintArray(arr);
-System.Console.WriteLine($"Разница между максимальным и минамальным элементом: {MaxMin(arr)}");
+System.Console.WriteLine($"Разница между максимальным и минамальным элементом: ");
+System.Console.WriteLine("{0:0.00}",MaxMin(arr));
