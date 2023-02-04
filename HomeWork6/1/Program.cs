@@ -22,6 +22,16 @@ j++;
 }
 }
 
+// Console.WriteLine("Введите массив целых чисел через пробел:");
+// string input = Console.ReadLine()!;
+// string[] numberStrings = input.Split(" ");
+// int[] numbers = new int[numberStrings.Length];
+
+// for (int i = 0; i < numbers.Length; i++)
+//     numbers[i] = int.Parse(numberStrings[i]);
+
+// PrintArray(numbers);
+
 void PrintArray(int [] array){
 
     System.Console.Write($"{String.Join(", ", array)}\n");
