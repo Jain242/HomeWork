@@ -22,13 +22,12 @@ int[,] GenerateArray(int m, int n, int min, int max)
 }
 
 void PrintArray2D(int[,] array) {
-    for (int i = 0; i < array.GetLength(0); i++) { Console.Write("[");
+    for (int i = 0; i < array.GetLength(0); i++) { 
         for ( int j = 0; j < array.GetLength(1); j++){
            
-            Console.Write($" {array[i,j]} ");
+            Console.Write($" {array[i,j]}\t");
        
-    }
-     Console.WriteLine(']');
+    }System.Console.WriteLine();
 }
 }
 
