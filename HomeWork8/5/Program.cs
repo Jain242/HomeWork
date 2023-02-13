@@ -32,7 +32,6 @@ int[,] GenerateArray(int m)
 
 }
 
-
 void PrintNumber(int [,] array, int i, int j,int s){
 
             while (array[i,j + 1] == 0) {
@@ -72,7 +71,7 @@ if (i <=(array.GetLength(0)-2)/2) {
 /*---MAIN---*/
 
 
-Console.WriteLine(" Задача 62 ");
+Console.WriteLine("Задача 62 ");
 Console.WriteLine();
 Console.Write("Введите размерность массива от 0 до N: ");
 int N = Convert.ToInt32(System.Console.ReadLine()) + 2;
